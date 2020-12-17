@@ -1,7 +1,13 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    // "lib": [ "dom", "dom.iterable", "esnext"],
+    // From: https://material-ui.com/guides/typescript/
+    "lib": ["es6", "dom", "dom.iterable", "esnext"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    //
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,

@@ -1,9 +1,15 @@
 import React from 'react';
+import { CssBaseline } from '@material-ui/core';
+
+import { Reader } from './features/Reader';
+import { NavBar } from './features/NavBar/NavBar';
 
 function App() {
   return (
     <div>
-      <div>Langelesen</div>
+      <CssBaseline />
+      <NavBar />
+      <Reader />
     </div>
   );
 }
